@@ -22,7 +22,7 @@ def banner():
          / _ \| | | | __/ _ \   \ \ / /| / __| | __/ 
         / ___ \ |_| | || (_) |   \ V / | \__ \ | |
        /_/   \_\__,_|\__\___/     \_/  |_|___/_|\__\  
-  '''+W+'Author : RandiOloy\n\t\t  YT : RANDI OLOYY')
+  '''+W+'Author : RandiOloy\n\t\t    YT : RANDI OLOYY')
                    
 def main():
 	success = []
@@ -41,7 +41,7 @@ def main():
 	f = raw_input(''+C+'MASUKKAN SITE'+W+' ('+H+' Ex : '+C+'https://www.site.com '+W+') : ')
 	u = input(''+C+'JUMLAH VISIT'+W+' ('+H+' Ex : '+C+'100 '+W+') : ')
 	print
-	print(''+C+'-------------- '+W+'Starting'+C+' --------------')
+	print(''+C+'[!]'+W+'Starting'+C+' [!]')
 	print
 	
 	for i in range(u):
@@ -67,7 +67,7 @@ def main():
 			break
 	
 	print
-	print(''+C+'----------- '+W+'Selesai & Hasil'+C+' -----------')
+	print(''+C+'[+]'+W+'Selesai & Hasil'+C+'[+]')
 	h = (len(success))
 	l = (len(gagal))
 	print
